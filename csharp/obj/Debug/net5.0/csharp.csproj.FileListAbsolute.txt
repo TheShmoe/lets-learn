@@ -1,0 +1,15 @@
+/Users/Schmoe/repos/TheShmoe/lets-learn/csharp/bin/Debug/net5.0/csharp.deps.json
+/Users/Schmoe/repos/TheShmoe/lets-learn/csharp/bin/Debug/net5.0/csharp.runtimeconfig.json
+/Users/Schmoe/repos/TheShmoe/lets-learn/csharp/bin/Debug/net5.0/csharp.runtimeconfig.dev.json
+/Users/Schmoe/repos/TheShmoe/lets-learn/csharp/bin/Debug/net5.0/csharp.dll
+/Users/Schmoe/repos/TheShmoe/lets-learn/csharp/bin/Debug/net5.0/ref/csharp.dll
+/Users/Schmoe/repos/TheShmoe/lets-learn/csharp/bin/Debug/net5.0/csharp.pdb
+/Users/Schmoe/repos/TheShmoe/lets-learn/csharp/obj/Debug/net5.0/csharp.csprojAssemblyReference.cache
+/Users/Schmoe/repos/TheShmoe/lets-learn/csharp/obj/Debug/net5.0/csharp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Schmoe/repos/TheShmoe/lets-learn/csharp/obj/Debug/net5.0/csharp.AssemblyInfoInputs.cache
+/Users/Schmoe/repos/TheShmoe/lets-learn/csharp/obj/Debug/net5.0/csharp.AssemblyInfo.cs
+/Users/Schmoe/repos/TheShmoe/lets-learn/csharp/obj/Debug/net5.0/csharp.csproj.CoreCompileInputs.cache
+/Users/Schmoe/repos/TheShmoe/lets-learn/csharp/obj/Debug/net5.0/csharp.dll
+/Users/Schmoe/repos/TheShmoe/lets-learn/csharp/obj/Debug/net5.0/ref/csharp.dll
+/Users/Schmoe/repos/TheShmoe/lets-learn/csharp/obj/Debug/net5.0/csharp.pdb
+/Users/Schmoe/repos/TheShmoe/lets-learn/csharp/obj/Debug/net5.0/csharp.genruntimeconfig.cache
