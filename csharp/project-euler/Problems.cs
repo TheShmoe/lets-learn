@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 
 namespace csharp.project_euler
@@ -112,7 +113,6 @@ namespace csharp.project_euler
                 {
                     if (maxPalindromeCombo.i > Math.Max(i, j) && maxPalindromeCombo.j > Math.Max(i, j))
                     {
-                        Console.WriteLine($"Found the max palindromic combination: {i} * {j} = {maxPalindrome}");
                         return maxPalindrome;
                     }
                     else
@@ -138,5 +138,116 @@ namespace csharp.project_euler
 
             return maxPalindrome;
         }
+
+        public int Problem5()
+        {
+            /*
+                2520 is the smallest number that can be divided by each of the numbers from 1 to 10 without any remainder.
+                What is the smallest positive number that is evenly divisible by all of the numbers from 1 to 20?
+            */
+
+            var result = 1;
+            var keepTrying = true;
+
+            while (keepTrying)
+            {
+                // Console.WriteLine($"Currently checking on {result}");
+
+                for (int i = 1; i <= 20; i++)
+                {
+                    if (result % 2520 == 0)
+                    {
+                        if (result % i == 0)
+                        {
+                            if (i == 20)
+                            {
+                                keepTrying = false;
+                            }
+                            else
+                            {
+                                continue;
+                            }
+                        }
+                        else
+                        {
+                            result++;
+                            break;
+                        }
+                    }
+                    else
+                    {
+                        result++;
+                        break;
+                    }
+                }
+            }
+            return result;
+        }
+
+        public int Problem6()
+        {
+            /*
+                Find the difference between the sum of the squares of the first one hundred natural numbers and the square of the sum.
+            */
+
+            var result = 0;
+            var digitSum = 0;
+            var squareOfSums = 0;
+            var sumOfSquares = 0;
+
+            for (int i = 0; i <= 100; i++)
+            {
+                digitSum += i;
+                sumOfSquares += (i * i);
+            }
+
+            squareOfSums = digitSum * digitSum;
+            result = squareOfSums - sumOfSquares;
+
+            return result;
+        }
+
+        public int Problem7()
+        {
+            /*
+                By listing the first six prime numbers: 2, 3, 5, 7, 11, and 13, we can see that the 6th prime is 13.
+                What is the 10001st prime number?
+            */
+
+            var currentCheckValue = 3;
+            var currentPrimeNumber = 2;
+            var primes = new List<int>() { 2 };
+            var primeNumberCount = 1;
+
+            while (primeNumberCount < 10001)
+            {
+                for (int i = 0; i < primes.Count; i++)
+                {
+                    if (currentCheckValue % primes[i] == 0)
+                    {
+                        currentCheckValue++;
+                        break;
+                    }
+                    else
+                    {
+                        if (i == (primes.Count - 1))
+                        {
+                            currentPrimeNumber = currentCheckValue;
+                            primes.Add(currentCheckValue);
+                            primeNumberCount++;
+                            currentCheckValue++;
+                            break;
+                        }
+                        else
+                        {
+                            continue;
+                        }
+                    }
+                }
+            }
+
+            return currentPrimeNumber;
+        }
+
     }
 }
