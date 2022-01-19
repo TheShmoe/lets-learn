@@ -18,6 +18,9 @@ namespace csharp
                 Console.WriteLine($"Project Euler Problem 5 Solution: {ProjectEulerProblems.Problem5()}");
                 Console.WriteLine($"Project Euler Problem 6 Solution: {ProjectEulerProblems.Problem6()}");
                 Console.WriteLine($"Project Euler Problem 7 Solution: {ProjectEulerProblems.Problem7()}");
+                Console.WriteLine($"Project Euler Problem 8 Solution: {ProjectEulerProblems.Problem8()}");
+                Console.WriteLine($"Project Euler Problem 9 Solution: {ProjectEulerProblems.Problem9()}");
+                Console.WriteLine($"Project Euler Problem 10 Solution: {ProjectEulerProblems.Problem10()}");
             }
         }
     }
