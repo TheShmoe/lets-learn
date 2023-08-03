@@ -1,2 +1,2 @@
 **NOTICE**
-If you planon solving these problems for yourself, please turn back now.
+If you plan on solving these problems for yourself, please turn back now.
